@@ -2,7 +2,7 @@ main {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  background-image: url('155.jpg');
+  background-image: url('img/155.jpg');
 
   /* Centra la imagen y hace que no se repita */
   background-position: center;
@@ -12,7 +12,7 @@ main {
   background-size: cover;
 
   /* Efecto Pro: la imagen se queda quieta mientras haces scroll */
-  background-attachment: fixed;
+  background-attachment: scroll;
 
   /* Color de fondo oscuro por si la imagen tarda en cargar */
   background-color: #0b0d17; 
@@ -22,16 +22,7 @@ main {
   margin: 0;
   padding: 0;
 }
-.body {
 
-  max-width: 800px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 30px;
-  ;
-}
 
 .titulo  {
     text-align: center;
