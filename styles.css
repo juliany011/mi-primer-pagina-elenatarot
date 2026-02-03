@@ -2,7 +2,7 @@ main {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  background-image: url('/home/crepeer/Escritorio/155.jpg');
+  background-image: url('155.jpg');
 
   /* Centra la imagen y hace que no se repita */
   background-position: center;
